@@ -1,0 +1,15 @@
+data/
+raw_data/
+calibration/
+figures/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+dist/
+build/
+*.egg-info/
+.DS_Store
