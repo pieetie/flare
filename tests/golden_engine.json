@@ -1,0 +1,3567 @@
+{
+ "arbitrary": [
+  {
+   "calibrated": {
+    "gc_clamp": 2,
+    "gc_pct": 50.0,
+    "hairpin_dG_kcal": -5.8,
+    "length": 16,
+    "self_dimer_dG_kcal": -22.0,
+    "sequence": "ACGTACGTACGTACGT",
+    "tm_C": 47.27
+   },
+   "literature": {
+    "gc_clamp": 2,
+    "gc_pct": 50.0,
+    "hairpin_dG_kcal": -5.3,
+    "length": 16,
+    "self_dimer_dG_kcal": -20.4,
+    "sequence": "ACGTACGTACGTACGT",
+    "tm_C": 47.27
+   },
+   "seq": "ACGTACGTACGTACGT"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 5,
+    "gc_pct": 50.0,
+    "hairpin_dG_kcal": -9.4,
+    "length": 20,
+    "self_dimer_dG_kcal": -26.5,
+    "sequence": "GGGGGAAAAATTTTTCCCCC",
+    "tm_C": 54.08
+   },
+   "literature": {
+    "gc_clamp": 5,
+    "gc_pct": 50.0,
+    "hairpin_dG_kcal": -8.9,
+    "length": 20,
+    "self_dimer_dG_kcal": -24.6,
+    "sequence": "GGGGGAAAAATTTTTCCCCC",
+    "tm_C": 54.08
+   },
+   "seq": "GGGGGAAAAATTTTTCCCCC"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 2,
+    "gc_pct": 50.0,
+    "hairpin_dG_kcal": -4.0,
+    "length": 20,
+    "self_dimer_dG_kcal": -18.2,
+    "sequence": "ATCGGCTAGCTAGCTAGCTA",
+    "tm_C": 55.19
+   },
+   "literature": {
+    "gc_clamp": 2,
+    "gc_pct": 50.0,
+    "hairpin_dG_kcal": -3.6,
+    "length": 20,
+    "self_dimer_dG_kcal": -16.8,
+    "sequence": "ATCGGCTAGCTAGCTAGCTA",
+    "tm_C": 55.19
+   },
+   "seq": "ATCGGCTAGCTAGCTAGCTA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 0,
+    "gc_pct": 0.0,
+    "hairpin_dG_kcal": 0.0,
+    "length": 20,
+    "self_dimer_dG_kcal": 0.0,
+    "sequence": "TTTTTTTTTTTTTTTTTTTT",
+    "tm_C": 39.6
+   },
+   "literature": {
+    "gc_clamp": 0,
+    "gc_pct": 0.0,
+    "hairpin_dG_kcal": 0.0,
+    "length": 20,
+    "self_dimer_dG_kcal": 0.0,
+    "sequence": "TTTTTTTTTTTTTTTTTTTT",
+    "tm_C": 39.6
+   },
+   "seq": "TTTTTTTTTTTTTTTTTTTT"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 2,
+    "gc_pct": 50.0,
+    "hairpin_dG_kcal": -4.6,
+    "length": 16,
+    "self_dimer_dG_kcal": -20.1,
+    "sequence": "GCATGCATGCATGCAT",
+    "tm_C": 50.27
+   },
+   "literature": {
+    "gc_clamp": 2,
+    "gc_pct": 50.0,
+    "hairpin_dG_kcal": -4.2,
+    "length": 16,
+    "self_dimer_dG_kcal": -18.7,
+    "sequence": "GCATGCATGCATGCAT",
+    "tm_C": 50.27
+   },
+   "seq": "GCATGCATGCATGCAT"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 3,
+    "gc_pct": 50.0,
+    "hairpin_dG_kcal": -6.9,
+    "length": 16,
+    "self_dimer_dG_kcal": -21.8,
+    "sequence": "AACCGGTTAACCGGTT",
+    "tm_C": 47.88
+   },
+   "literature": {
+    "gc_clamp": 3,
+    "gc_pct": 50.0,
+    "hairpin_dG_kcal": -6.5,
+    "length": 16,
+    "self_dimer_dG_kcal": -20.5,
+    "sequence": "AACCGGTTAACCGGTT",
+    "tm_C": 47.88
+   },
+   "seq": "AACCGGTTAACCGGTT"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 50.0,
+    "hairpin_dG_kcal": 0.0,
+    "length": 20,
+    "self_dimer_dG_kcal": 0.0,
+    "sequence": "CAGTCAGTCAGTCAGTCAGT",
+    "tm_C": 54.56
+   },
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 50.0,
+    "hairpin_dG_kcal": 0.0,
+    "length": 20,
+    "self_dimer_dG_kcal": 0.0,
+    "sequence": "CAGTCAGTCAGTCAGTCAGT",
+    "tm_C": 54.56
+   },
+   "seq": "CAGTCAGTCAGTCAGTCAGT"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 2,
+    "gc_pct": 50.0,
+    "hairpin_dG_kcal": -1.8,
+    "length": 20,
+    "self_dimer_dG_kcal": -12.3,
+    "sequence": "TGACATGCATGCTAGCTAGC",
+    "tm_C": 56.15
+   },
+   "literature": {
+    "gc_clamp": 2,
+    "gc_pct": 50.0,
+    "hairpin_dG_kcal": -1.7,
+    "length": 20,
+    "self_dimer_dG_kcal": -11.4,
+    "sequence": "TGACATGCATGCTAGCTAGC",
+    "tm_C": 56.15
+   },
+   "seq": "TGACATGCATGCTAGCTAGC"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 5,
+    "gc_pct": 100.0,
+    "hairpin_dG_kcal": -3.9,
+    "length": 12,
+    "self_dimer_dG_kcal": -19.7,
+    "sequence": "CCCCCCGGGGGG",
+    "tm_C": 47.88
+   },
+   "literature": {
+    "gc_clamp": 5,
+    "gc_pct": 100.0,
+    "hairpin_dG_kcal": -3.7,
+    "length": 12,
+    "self_dimer_dG_kcal": -18.8,
+    "sequence": "CCCCCCGGGGGG",
+    "tm_C": 47.88
+   },
+   "seq": "CCCCCCGGGGGG"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 0,
+    "gc_pct": 33.33,
+    "hairpin_dG_kcal": -3.9,
+    "length": 18,
+    "self_dimer_dG_kcal": -21.6,
+    "sequence": "ATATATGCGCGCATATAT",
+    "tm_C": 44.78
+   },
+   "literature": {
+    "gc_clamp": 0,
+    "gc_pct": 33.33,
+    "hairpin_dG_kcal": -3.5,
+    "length": 18,
+    "self_dimer_dG_kcal": -19.9,
+    "sequence": "ATATATGCGCGCATATAT",
+    "tm_C": 44.78
+   },
+   "seq": "ATATATGCGCGCATATAT"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 2,
+    "gc_pct": 50.0,
+    "hairpin_dG_kcal": -8.2,
+    "length": 20,
+    "self_dimer_dG_kcal": -26.8,
+    "sequence": "GTACGTACGTACGTACGTAC",
+    "tm_C": 52.6
+   },
+   "literature": {
+    "gc_clamp": 2,
+    "gc_pct": 50.0,
+    "hairpin_dG_kcal": -7.4,
+    "length": 20,
+    "self_dimer_dG_kcal": -24.5,
+    "sequence": "GTACGTACGTACGTACGTAC",
+    "tm_C": 52.6
+   },
+   "seq": "GTACGTACGTACGTACGTAC"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 50.0,
+    "hairpin_dG_kcal": 0.0,
+    "length": 16,
+    "self_dimer_dG_kcal": 0.0,
+    "sequence": "AGAGAGAGAGAGAGAG",
+    "tm_C": 42.35
+   },
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 50.0,
+    "hairpin_dG_kcal": 0.0,
+    "length": 16,
+    "self_dimer_dG_kcal": 0.0,
+    "sequence": "AGAGAGAGAGAGAGAG",
+    "tm_C": 42.35
+   },
+   "seq": "AGAGAGAGAGAGAGAG"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 2,
+    "gc_pct": 66.67,
+    "hairpin_dG_kcal": -8.5,
+    "length": 18,
+    "self_dimer_dG_kcal": -27.0,
+    "sequence": "CTCGAGCTCGAGCTCGAG",
+    "tm_C": 55.85
+   },
+   "literature": {
+    "gc_clamp": 2,
+    "gc_pct": 66.67,
+    "hairpin_dG_kcal": -7.8,
+    "length": 18,
+    "self_dimer_dG_kcal": -24.9,
+    "sequence": "CTCGAGCTCGAGCTCGAG",
+    "tm_C": 55.85
+   },
+   "seq": "CTCGAGCTCGAGCTCGAG"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 3,
+    "gc_pct": 50.0,
+    "hairpin_dG_kcal": -8.9,
+    "length": 20,
+    "self_dimer_dG_kcal": -27.7,
+    "sequence": "TACGGCTAACGTTAGCCGTA",
+    "tm_C": 55.68
+   },
+   "literature": {
+    "gc_clamp": 3,
+    "gc_pct": 50.0,
+    "hairpin_dG_kcal": -8.4,
+    "length": 20,
+    "self_dimer_dG_kcal": -25.8,
+    "sequence": "TACGGCTAACGTTAGCCGTA",
+    "tm_C": 55.68
+   },
+   "seq": "TACGGCTAACGTTAGCCGTA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 3,
+    "gc_pct": 50.0,
+    "hairpin_dG_kcal": -3.2,
+    "length": 18,
+    "self_dimer_dG_kcal": -15.3,
+    "sequence": "AAAGGGCCCTTTAAAGGG",
+    "tm_C": 51.57
+   },
+   "literature": {
+    "gc_clamp": 3,
+    "gc_pct": 50.0,
+    "hairpin_dG_kcal": -3.1,
+    "length": 18,
+    "self_dimer_dG_kcal": -14.5,
+    "sequence": "AAAGGGCCCTTTAAAGGG",
+    "tm_C": 51.57
+   },
+   "seq": "AAAGGGCCCTTTAAAGGG"
+  }
+ ],
+ "arbitrary_cross": [
+  {
+   "a": "ACGTACGTACGTACGT",
+   "b": "GGGGGAAAAATTTTTCCCCC",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "ACGTACGTACGTACGT",
+   "b": "ATCGGCTAGCTAGCTAGCTA",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "ACGTACGTACGTACGT",
+   "b": "TTTTTTTTTTTTTTTTTTTT",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "ACGTACGTACGTACGT",
+   "b": "GCATGCATGCATGCAT",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "ACGTACGTACGTACGT",
+   "b": "AACCGGTTAACCGGTT",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "ACGTACGTACGTACGT",
+   "b": "CAGTCAGTCAGTCAGTCAGT",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "ACGTACGTACGTACGT",
+   "b": "TGACATGCATGCTAGCTAGC",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "ACGTACGTACGTACGT",
+   "b": "CCCCCCGGGGGG",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "ACGTACGTACGTACGT",
+   "b": "ATATATGCGCGCATATAT",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "ACGTACGTACGTACGT",
+   "b": "GTACGTACGTACGTACGTAC",
+   "calibrated": -22.0,
+   "literature": -20.4
+  },
+  {
+   "a": "ACGTACGTACGTACGT",
+   "b": "AGAGAGAGAGAGAGAG",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "ACGTACGTACGTACGT",
+   "b": "CTCGAGCTCGAGCTCGAG",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "ACGTACGTACGTACGT",
+   "b": "TACGGCTAACGTTAGCCGTA",
+   "calibrated": -3.3,
+   "literature": -3.4
+  },
+  {
+   "a": "ACGTACGTACGTACGT",
+   "b": "AAAGGGCCCTTTAAAGGG",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "GGGGGAAAAATTTTTCCCCC",
+   "b": "ATCGGCTAGCTAGCTAGCTA",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "GGGGGAAAAATTTTTCCCCC",
+   "b": "TTTTTTTTTTTTTTTTTTTT",
+   "calibrated": -2.4,
+   "literature": -2.4
+  },
+  {
+   "a": "GGGGGAAAAATTTTTCCCCC",
+   "b": "GCATGCATGCATGCAT",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "GGGGGAAAAATTTTTCCCCC",
+   "b": "AACCGGTTAACCGGTT",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "GGGGGAAAAATTTTTCCCCC",
+   "b": "CAGTCAGTCAGTCAGTCAGT",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "GGGGGAAAAATTTTTCCCCC",
+   "b": "TGACATGCATGCTAGCTAGC",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "GGGGGAAAAATTTTTCCCCC",
+   "b": "CCCCCCGGGGGG",
+   "calibrated": -5.8,
+   "literature": -5.7
+  },
+  {
+   "a": "GGGGGAAAAATTTTTCCCCC",
+   "b": "ATATATGCGCGCATATAT",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "GGGGGAAAAATTTTTCCCCC",
+   "b": "GTACGTACGTACGTACGTAC",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "GGGGGAAAAATTTTTCCCCC",
+   "b": "AGAGAGAGAGAGAGAG",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "GGGGGAAAAATTTTTCCCCC",
+   "b": "CTCGAGCTCGAGCTCGAG",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "GGGGGAAAAATTTTTCCCCC",
+   "b": "TACGGCTAACGTTAGCCGTA",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "GGGGGAAAAATTTTTCCCCC",
+   "b": "AAAGGGCCCTTTAAAGGG",
+   "calibrated": -2.0,
+   "literature": -2.0
+  },
+  {
+   "a": "ATCGGCTAGCTAGCTAGCTA",
+   "b": "TTTTTTTTTTTTTTTTTTTT",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "ATCGGCTAGCTAGCTAGCTA",
+   "b": "GCATGCATGCATGCAT",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "ATCGGCTAGCTAGCTAGCTA",
+   "b": "AACCGGTTAACCGGTT",
+   "calibrated": -2.4,
+   "literature": -2.3
+  },
+  {
+   "a": "ATCGGCTAGCTAGCTAGCTA",
+   "b": "CAGTCAGTCAGTCAGTCAGT",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "ATCGGCTAGCTAGCTAGCTA",
+   "b": "TGACATGCATGCTAGCTAGC",
+   "calibrated": -12.3,
+   "literature": -11.4
+  },
+  {
+   "a": "ATCGGCTAGCTAGCTAGCTA",
+   "b": "CCCCCCGGGGGG",
+   "calibrated": -2.4,
+   "literature": -2.3
+  },
+  {
+   "a": "ATCGGCTAGCTAGCTAGCTA",
+   "b": "ATATATGCGCGCATATAT",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "ATCGGCTAGCTAGCTAGCTA",
+   "b": "GTACGTACGTACGTACGTAC",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "ATCGGCTAGCTAGCTAGCTA",
+   "b": "AGAGAGAGAGAGAGAG",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "ATCGGCTAGCTAGCTAGCTA",
+   "b": "CTCGAGCTCGAGCTCGAG",
+   "calibrated": -3.0,
+   "literature": -3.2
+  },
+  {
+   "a": "ATCGGCTAGCTAGCTAGCTA",
+   "b": "TACGGCTAACGTTAGCCGTA",
+   "calibrated": -6.8,
+   "literature": -6.5
+  },
+  {
+   "a": "ATCGGCTAGCTAGCTAGCTA",
+   "b": "AAAGGGCCCTTTAAAGGG",
+   "calibrated": -2.4,
+   "literature": -2.4
+  },
+  {
+   "a": "TTTTTTTTTTTTTTTTTTTT",
+   "b": "GCATGCATGCATGCAT",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "TTTTTTTTTTTTTTTTTTTT",
+   "b": "AACCGGTTAACCGGTT",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "TTTTTTTTTTTTTTTTTTTT",
+   "b": "CAGTCAGTCAGTCAGTCAGT",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "TTTTTTTTTTTTTTTTTTTT",
+   "b": "TGACATGCATGCTAGCTAGC",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "TTTTTTTTTTTTTTTTTTTT",
+   "b": "CCCCCCGGGGGG",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "TTTTTTTTTTTTTTTTTTTT",
+   "b": "ATATATGCGCGCATATAT",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "TTTTTTTTTTTTTTTTTTTT",
+   "b": "GTACGTACGTACGTACGTAC",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "TTTTTTTTTTTTTTTTTTTT",
+   "b": "AGAGAGAGAGAGAGAG",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "TTTTTTTTTTTTTTTTTTTT",
+   "b": "CTCGAGCTCGAGCTCGAG",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "TTTTTTTTTTTTTTTTTTTT",
+   "b": "TACGGCTAACGTTAGCCGTA",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "TTTTTTTTTTTTTTTTTTTT",
+   "b": "AAAGGGCCCTTTAAAGGG",
+   "calibrated": -0.1,
+   "literature": 0.0
+  },
+  {
+   "a": "GCATGCATGCATGCAT",
+   "b": "AACCGGTTAACCGGTT",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "GCATGCATGCATGCAT",
+   "b": "CAGTCAGTCAGTCAGTCAGT",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "GCATGCATGCATGCAT",
+   "b": "TGACATGCATGCTAGCTAGC",
+   "calibrated": -11.2,
+   "literature": -10.4
+  },
+  {
+   "a": "GCATGCATGCATGCAT",
+   "b": "CCCCCCGGGGGG",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "GCATGCATGCATGCAT",
+   "b": "ATATATGCGCGCATATAT",
+   "calibrated": -2.9,
+   "literature": -2.9
+  },
+  {
+   "a": "GCATGCATGCATGCAT",
+   "b": "GTACGTACGTACGTACGTAC",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "GCATGCATGCATGCAT",
+   "b": "AGAGAGAGAGAGAGAG",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "GCATGCATGCATGCAT",
+   "b": "CTCGAGCTCGAGCTCGAG",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "GCATGCATGCATGCAT",
+   "b": "TACGGCTAACGTTAGCCGTA",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "GCATGCATGCATGCAT",
+   "b": "AAAGGGCCCTTTAAAGGG",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "AACCGGTTAACCGGTT",
+   "b": "CAGTCAGTCAGTCAGTCAGT",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "AACCGGTTAACCGGTT",
+   "b": "TGACATGCATGCTAGCTAGC",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "AACCGGTTAACCGGTT",
+   "b": "CCCCCCGGGGGG",
+   "calibrated": -4.3,
+   "literature": -4.2
+  },
+  {
+   "a": "AACCGGTTAACCGGTT",
+   "b": "ATATATGCGCGCATATAT",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "AACCGGTTAACCGGTT",
+   "b": "GTACGTACGTACGTACGTAC",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "AACCGGTTAACCGGTT",
+   "b": "AGAGAGAGAGAGAGAG",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "AACCGGTTAACCGGTT",
+   "b": "CTCGAGCTCGAGCTCGAG",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "AACCGGTTAACCGGTT",
+   "b": "TACGGCTAACGTTAGCCGTA",
+   "calibrated": -2.4,
+   "literature": -2.3
+  },
+  {
+   "a": "AACCGGTTAACCGGTT",
+   "b": "AAAGGGCCCTTTAAAGGG",
+   "calibrated": -0.8,
+   "literature": -1.0
+  },
+  {
+   "a": "CAGTCAGTCAGTCAGTCAGT",
+   "b": "TGACATGCATGCTAGCTAGC",
+   "calibrated": -2.6,
+   "literature": -2.6
+  },
+  {
+   "a": "CAGTCAGTCAGTCAGTCAGT",
+   "b": "CCCCCCGGGGGG",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "CAGTCAGTCAGTCAGTCAGT",
+   "b": "ATATATGCGCGCATATAT",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "CAGTCAGTCAGTCAGTCAGT",
+   "b": "GTACGTACGTACGTACGTAC",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "CAGTCAGTCAGTCAGTCAGT",
+   "b": "AGAGAGAGAGAGAGAG",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "CAGTCAGTCAGTCAGTCAGT",
+   "b": "CTCGAGCTCGAGCTCGAG",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "CAGTCAGTCAGTCAGTCAGT",
+   "b": "TACGGCTAACGTTAGCCGTA",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "CAGTCAGTCAGTCAGTCAGT",
+   "b": "AAAGGGCCCTTTAAAGGG",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "TGACATGCATGCTAGCTAGC",
+   "b": "CCCCCCGGGGGG",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "TGACATGCATGCTAGCTAGC",
+   "b": "ATATATGCGCGCATATAT",
+   "calibrated": -2.9,
+   "literature": -2.9
+  },
+  {
+   "a": "TGACATGCATGCTAGCTAGC",
+   "b": "GTACGTACGTACGTACGTAC",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "TGACATGCATGCTAGCTAGC",
+   "b": "AGAGAGAGAGAGAGAG",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "TGACATGCATGCTAGCTAGC",
+   "b": "CTCGAGCTCGAGCTCGAG",
+   "calibrated": -3.0,
+   "literature": -3.2
+  },
+  {
+   "a": "TGACATGCATGCTAGCTAGC",
+   "b": "TACGGCTAACGTTAGCCGTA",
+   "calibrated": -2.5,
+   "literature": -2.5
+  },
+  {
+   "a": "TGACATGCATGCTAGCTAGC",
+   "b": "AAAGGGCCCTTTAAAGGG",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "CCCCCCGGGGGG",
+   "b": "ATATATGCGCGCATATAT",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "CCCCCCGGGGGG",
+   "b": "GTACGTACGTACGTACGTAC",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "CCCCCCGGGGGG",
+   "b": "AGAGAGAGAGAGAGAG",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "CCCCCCGGGGGG",
+   "b": "CTCGAGCTCGAGCTCGAG",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "CCCCCCGGGGGG",
+   "b": "TACGGCTAACGTTAGCCGTA",
+   "calibrated": -2.4,
+   "literature": -2.3
+  },
+  {
+   "a": "CCCCCCGGGGGG",
+   "b": "AAAGGGCCCTTTAAAGGG",
+   "calibrated": -2.0,
+   "literature": -2.0
+  },
+  {
+   "a": "ATATATGCGCGCATATAT",
+   "b": "GTACGTACGTACGTACGTAC",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "ATATATGCGCGCATATAT",
+   "b": "AGAGAGAGAGAGAGAG",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "ATATATGCGCGCATATAT",
+   "b": "CTCGAGCTCGAGCTCGAG",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "ATATATGCGCGCATATAT",
+   "b": "TACGGCTAACGTTAGCCGTA",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "ATATATGCGCGCATATAT",
+   "b": "AAAGGGCCCTTTAAAGGG",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "GTACGTACGTACGTACGTAC",
+   "b": "AGAGAGAGAGAGAGAG",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "GTACGTACGTACGTACGTAC",
+   "b": "CTCGAGCTCGAGCTCGAG",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "GTACGTACGTACGTACGTAC",
+   "b": "TACGGCTAACGTTAGCCGTA",
+   "calibrated": -3.3,
+   "literature": -3.4
+  },
+  {
+   "a": "GTACGTACGTACGTACGTAC",
+   "b": "AAAGGGCCCTTTAAAGGG",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "AGAGAGAGAGAGAGAG",
+   "b": "CTCGAGCTCGAGCTCGAG",
+   "calibrated": -1.0,
+   "literature": -1.0
+  },
+  {
+   "a": "AGAGAGAGAGAGAGAG",
+   "b": "TACGGCTAACGTTAGCCGTA",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "AGAGAGAGAGAGAGAG",
+   "b": "AAAGGGCCCTTTAAAGGG",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "CTCGAGCTCGAGCTCGAG",
+   "b": "TACGGCTAACGTTAGCCGTA",
+   "calibrated": -1.8,
+   "literature": -1.9
+  },
+  {
+   "a": "CTCGAGCTCGAGCTCGAG",
+   "b": "AAAGGGCCCTTTAAAGGG",
+   "calibrated": 0.0,
+   "literature": 0.0
+  },
+  {
+   "a": "TACGGCTAACGTTAGCCGTA",
+   "b": "AAAGGGCCCTTTAAAGGG",
+   "calibrated": -2.4,
+   "literature": -2.4
+  }
+ ],
+ "cross_dimers": [
+  {
+   "assay": "ref_assay_01",
+   "calibrated": -2.4,
+   "literature": -2.4,
+   "pair": [
+    "sense_primer",
+    "antisense_primer"
+   ]
+  },
+  {
+   "assay": "ref_assay_01",
+   "calibrated": -3.4,
+   "literature": -3.5,
+   "pair": [
+    "sense_primer",
+    "probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_01",
+   "calibrated": -2.4,
+   "literature": -2.4,
+   "pair": [
+    "antisense_primer",
+    "probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_01_dna50",
+   "calibrated": -2.4,
+   "literature": -2.4,
+   "pair": [
+    "sense_primer",
+    "antisense_primer"
+   ]
+  },
+  {
+   "assay": "ref_assay_01_dna50",
+   "calibrated": -3.4,
+   "literature": -3.5,
+   "pair": [
+    "sense_primer",
+    "probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_01_dna50",
+   "calibrated": -2.4,
+   "literature": -2.4,
+   "pair": [
+    "antisense_primer",
+    "probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_01_low_salt",
+   "calibrated": -2.4,
+   "literature": -2.4,
+   "pair": [
+    "sense_primer",
+    "antisense_primer"
+   ]
+  },
+  {
+   "assay": "ref_assay_01_low_salt",
+   "calibrated": -3.4,
+   "literature": -3.5,
+   "pair": [
+    "sense_primer",
+    "probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_01_low_salt",
+   "calibrated": -2.4,
+   "literature": -2.4,
+   "pair": [
+    "antisense_primer",
+    "probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_02",
+   "calibrated": -5.1,
+   "literature": -5.0,
+   "pair": [
+    "ref_assay_02_sense",
+    "ref_assay_02_antisense"
+   ]
+  },
+  {
+   "assay": "ref_assay_02",
+   "calibrated": -2.7,
+   "literature": -2.7,
+   "pair": [
+    "ref_assay_02_sense",
+    "ref_assay_02_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_02",
+   "calibrated": -3.9,
+   "literature": -3.7,
+   "pair": [
+    "ref_assay_02_antisense",
+    "ref_assay_02_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_02_low_mg",
+   "calibrated": -5.1,
+   "literature": -5.0,
+   "pair": [
+    "ref_assay_02_sense",
+    "ref_assay_02_antisense"
+   ]
+  },
+  {
+   "assay": "ref_assay_02_low_mg",
+   "calibrated": -2.7,
+   "literature": -2.7,
+   "pair": [
+    "ref_assay_02_sense",
+    "ref_assay_02_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_02_low_mg",
+   "calibrated": -3.9,
+   "literature": -3.7,
+   "pair": [
+    "ref_assay_02_antisense",
+    "ref_assay_02_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_02_dna50",
+   "calibrated": -5.1,
+   "literature": -5.0,
+   "pair": [
+    "ref_assay_02_sense",
+    "ref_assay_02_antisense"
+   ]
+  },
+  {
+   "assay": "ref_assay_02_dna50",
+   "calibrated": -2.7,
+   "literature": -2.7,
+   "pair": [
+    "ref_assay_02_sense",
+    "ref_assay_02_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_02_dna50",
+   "calibrated": -3.9,
+   "literature": -3.7,
+   "pair": [
+    "ref_assay_02_antisense",
+    "ref_assay_02_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_03",
+   "calibrated": 0.0,
+   "literature": 0.0,
+   "pair": [
+    "ref_assay_03_sense",
+    "ref_assay_03_antisense"
+   ]
+  },
+  {
+   "assay": "ref_assay_03",
+   "calibrated": -2.0,
+   "literature": -2.0,
+   "pair": [
+    "ref_assay_03_sense",
+    "ref_assay_03_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_03",
+   "calibrated": -2.5,
+   "literature": -2.5,
+   "pair": [
+    "ref_assay_03_antisense",
+    "ref_assay_03_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_03_low_salt",
+   "calibrated": 0.0,
+   "literature": 0.0,
+   "pair": [
+    "ref_assay_03_sense",
+    "ref_assay_03_antisense"
+   ]
+  },
+  {
+   "assay": "ref_assay_03_low_salt",
+   "calibrated": -2.0,
+   "literature": -2.0,
+   "pair": [
+    "ref_assay_03_sense",
+    "ref_assay_03_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_03_low_salt",
+   "calibrated": -2.5,
+   "literature": -2.5,
+   "pair": [
+    "ref_assay_03_antisense",
+    "ref_assay_03_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_03_low_salt_mg025",
+   "calibrated": 0.0,
+   "literature": 0.0,
+   "pair": [
+    "ref_assay_03_sense",
+    "ref_assay_03_antisense"
+   ]
+  },
+  {
+   "assay": "ref_assay_03_low_salt_mg025",
+   "calibrated": -2.0,
+   "literature": -2.0,
+   "pair": [
+    "ref_assay_03_sense",
+    "ref_assay_03_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_03_low_salt_mg025",
+   "calibrated": -2.5,
+   "literature": -2.5,
+   "pair": [
+    "ref_assay_03_antisense",
+    "ref_assay_03_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_03_high_mono",
+   "calibrated": 0.0,
+   "literature": 0.0,
+   "pair": [
+    "ref_assay_03_sense",
+    "ref_assay_03_antisense"
+   ]
+  },
+  {
+   "assay": "ref_assay_03_high_mono",
+   "calibrated": -2.0,
+   "literature": -2.0,
+   "pair": [
+    "ref_assay_03_sense",
+    "ref_assay_03_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_03_high_mono",
+   "calibrated": -2.5,
+   "literature": -2.5,
+   "pair": [
+    "ref_assay_03_antisense",
+    "ref_assay_03_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_04",
+   "calibrated": -1.3,
+   "literature": -1.3,
+   "pair": [
+    "ref_assay_04_sense",
+    "ref_assay_04_antisense"
+   ]
+  },
+  {
+   "assay": "ref_assay_04",
+   "calibrated": -3.0,
+   "literature": -2.9,
+   "pair": [
+    "ref_assay_04_sense",
+    "ref_assay_04_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_04",
+   "calibrated": -2.0,
+   "literature": -2.0,
+   "pair": [
+    "ref_assay_04_antisense",
+    "ref_assay_04_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_05",
+   "calibrated": 0.0,
+   "literature": 0.0,
+   "pair": [
+    "ref_assay_05_sense",
+    "ref_assay_05_antisense"
+   ]
+  },
+  {
+   "assay": "ref_assay_05",
+   "calibrated": -1.8,
+   "literature": -1.9,
+   "pair": [
+    "ref_assay_05_sense",
+    "ref_assay_05_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_05",
+   "calibrated": -0.9,
+   "literature": -1.1,
+   "pair": [
+    "ref_assay_05_antisense",
+    "ref_assay_05_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_06",
+   "calibrated": -2.4,
+   "literature": -2.4,
+   "pair": [
+    "ref_assay_06_sense",
+    "ref_assay_06_antisense"
+   ]
+  },
+  {
+   "assay": "ref_assay_06",
+   "calibrated": -2.4,
+   "literature": -2.4,
+   "pair": [
+    "ref_assay_06_sense",
+    "ref_assay_06_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_06",
+   "calibrated": -2.4,
+   "literature": -2.4,
+   "pair": [
+    "ref_assay_06_antisense",
+    "ref_assay_06_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_07",
+   "calibrated": -0.9,
+   "literature": -1.1,
+   "pair": [
+    "ref_assay_07_sense",
+    "ref_assay_07_antisense"
+   ]
+  },
+  {
+   "assay": "ref_assay_07",
+   "calibrated": -3.0,
+   "literature": -2.9,
+   "pair": [
+    "ref_assay_07_sense",
+    "ref_assay_07_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_07",
+   "calibrated": -2.6,
+   "literature": -2.8,
+   "pair": [
+    "ref_assay_07_antisense",
+    "ref_assay_07_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_08",
+   "calibrated": -1.1,
+   "literature": -1.1,
+   "pair": [
+    "ref_assay_08_sense",
+    "ref_assay_08_antisense"
+   ]
+  },
+  {
+   "assay": "ref_assay_08",
+   "calibrated": 0.0,
+   "literature": 0.0,
+   "pair": [
+    "ref_assay_08_sense",
+    "ref_assay_08_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_08",
+   "calibrated": -2.9,
+   "literature": -2.7,
+   "pair": [
+    "ref_assay_08_antisense",
+    "ref_assay_08_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_09",
+   "calibrated": -2.4,
+   "literature": -2.4,
+   "pair": [
+    "ref_assay_09_sense",
+    "ref_assay_09_antisense"
+   ]
+  },
+  {
+   "assay": "ref_assay_09",
+   "calibrated": -3.4,
+   "literature": -3.5,
+   "pair": [
+    "ref_assay_09_sense",
+    "ref_assay_09_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_09",
+   "calibrated": -2.4,
+   "literature": -2.4,
+   "pair": [
+    "ref_assay_09_antisense",
+    "ref_assay_09_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_09_low_mg",
+   "calibrated": -2.4,
+   "literature": -2.4,
+   "pair": [
+    "ref_assay_09_sense",
+    "ref_assay_09_antisense"
+   ]
+  },
+  {
+   "assay": "ref_assay_09_low_mg",
+   "calibrated": -3.4,
+   "literature": -3.5,
+   "pair": [
+    "ref_assay_09_sense",
+    "ref_assay_09_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_09_low_mg",
+   "calibrated": -2.4,
+   "literature": -2.4,
+   "pair": [
+    "ref_assay_09_antisense",
+    "ref_assay_09_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_10",
+   "calibrated": -1.0,
+   "literature": -1.0,
+   "pair": [
+    "ref_assay_10_sense",
+    "ref_assay_10_antisense"
+   ]
+  },
+  {
+   "assay": "ref_assay_10",
+   "calibrated": -4.4,
+   "literature": -4.4,
+   "pair": [
+    "ref_assay_10_sense",
+    "ref_assay_10_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_10",
+   "calibrated": -0.7,
+   "literature": -1.0,
+   "pair": [
+    "ref_assay_10_antisense",
+    "ref_assay_10_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_11",
+   "calibrated": -12.3,
+   "literature": -11.5,
+   "pair": [
+    "ref_assay_11_sense",
+    "ref_assay_11_antisense"
+   ]
+  },
+  {
+   "assay": "ref_assay_11",
+   "calibrated": 0.0,
+   "literature": 0.0,
+   "pair": [
+    "ref_assay_11_sense",
+    "ref_assay_11_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_11",
+   "calibrated": 0.0,
+   "literature": 0.0,
+   "pair": [
+    "ref_assay_11_antisense",
+    "ref_assay_11_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_12",
+   "calibrated": 0.3,
+   "literature": 0.0,
+   "pair": [
+    "ref_assay_12_sense",
+    "ref_assay_12_antisense"
+   ]
+  },
+  {
+   "assay": "ref_assay_12",
+   "calibrated": 0.0,
+   "literature": 0.0,
+   "pair": [
+    "ref_assay_12_sense",
+    "ref_assay_12_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_12",
+   "calibrated": 0.0,
+   "literature": 0.0,
+   "pair": [
+    "ref_assay_12_antisense",
+    "ref_assay_12_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_13",
+   "calibrated": 0.0,
+   "literature": 0.0,
+   "pair": [
+    "ref_assay_13_sense",
+    "ref_assay_13_antisense"
+   ]
+  },
+  {
+   "assay": "ref_assay_13",
+   "calibrated": -2.0,
+   "literature": -2.1,
+   "pair": [
+    "ref_assay_13_sense",
+    "ref_assay_13_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_13",
+   "calibrated": 0.0,
+   "literature": 0.0,
+   "pair": [
+    "ref_assay_13_antisense",
+    "ref_assay_13_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_14",
+   "calibrated": -1.0,
+   "literature": -1.3,
+   "pair": [
+    "ref_assay_14_sense",
+    "ref_assay_14_antisense"
+   ]
+  },
+  {
+   "assay": "ref_assay_14",
+   "calibrated": 0.0,
+   "literature": 0.0,
+   "pair": [
+    "ref_assay_14_sense",
+    "ref_assay_14_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_14",
+   "calibrated": -1.0,
+   "literature": -1.3,
+   "pair": [
+    "ref_assay_14_antisense",
+    "ref_assay_14_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_15",
+   "calibrated": 0.0,
+   "literature": 0.0,
+   "pair": [
+    "ref_assay_15_sense",
+    "ref_assay_15_antisense"
+   ]
+  },
+  {
+   "assay": "ref_assay_15",
+   "calibrated": 0.0,
+   "literature": 0.0,
+   "pair": [
+    "ref_assay_15_sense",
+    "ref_assay_15_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_15",
+   "calibrated": 0.0,
+   "literature": 0.0,
+   "pair": [
+    "ref_assay_15_antisense",
+    "ref_assay_15_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_16",
+   "calibrated": 0.0,
+   "literature": 0.0,
+   "pair": [
+    "ref_assay_16_sense",
+    "ref_assay_16_antisense"
+   ]
+  },
+  {
+   "assay": "ref_assay_16",
+   "calibrated": 0.0,
+   "literature": 0.0,
+   "pair": [
+    "ref_assay_16_sense",
+    "ref_assay_16_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_16",
+   "calibrated": 0.0,
+   "literature": 0.0,
+   "pair": [
+    "ref_assay_16_antisense",
+    "ref_assay_16_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_17",
+   "calibrated": -4.0,
+   "literature": -3.9,
+   "pair": [
+    "ref_assay_17_sense",
+    "ref_assay_17_antisense"
+   ]
+  },
+  {
+   "assay": "ref_assay_17",
+   "calibrated": -3.3,
+   "literature": -3.3,
+   "pair": [
+    "ref_assay_17_sense",
+    "ref_assay_17_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_17",
+   "calibrated": -4.4,
+   "literature": -4.2,
+   "pair": [
+    "ref_assay_17_antisense",
+    "ref_assay_17_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_18",
+   "calibrated": -4.4,
+   "literature": -4.2,
+   "pair": [
+    "ref_assay_18_sense",
+    "ref_assay_18_antisense"
+   ]
+  },
+  {
+   "assay": "ref_assay_18",
+   "calibrated": -4.4,
+   "literature": -4.2,
+   "pair": [
+    "ref_assay_18_sense",
+    "ref_assay_18_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_18",
+   "calibrated": -4.4,
+   "literature": -4.2,
+   "pair": [
+    "ref_assay_18_antisense",
+    "ref_assay_18_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_19",
+   "calibrated": 0.0,
+   "literature": 0.0,
+   "pair": [
+    "ref_assay_19_sense",
+    "ref_assay_19_antisense"
+   ]
+  },
+  {
+   "assay": "ref_assay_19",
+   "calibrated": 0.0,
+   "literature": 0.0,
+   "pair": [
+    "ref_assay_19_sense",
+    "ref_assay_19_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_19",
+   "calibrated": -2.0,
+   "literature": -1.8,
+   "pair": [
+    "ref_assay_19_antisense",
+    "ref_assay_19_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_20",
+   "calibrated": -2.0,
+   "literature": -1.8,
+   "pair": [
+    "ref_assay_20_sense",
+    "ref_assay_20_antisense"
+   ]
+  },
+  {
+   "assay": "ref_assay_20",
+   "calibrated": -2.0,
+   "literature": -1.8,
+   "pair": [
+    "ref_assay_20_sense",
+    "ref_assay_20_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_20",
+   "calibrated": -2.0,
+   "literature": -1.8,
+   "pair": [
+    "ref_assay_20_antisense",
+    "ref_assay_20_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_21",
+   "calibrated": -2.9,
+   "literature": -2.7,
+   "pair": [
+    "ref_assay_21_sense",
+    "ref_assay_21_antisense"
+   ]
+  },
+  {
+   "assay": "ref_assay_21",
+   "calibrated": 0.0,
+   "literature": 0.0,
+   "pair": [
+    "ref_assay_21_sense",
+    "ref_assay_21_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_21",
+   "calibrated": 0.0,
+   "literature": 0.0,
+   "pair": [
+    "ref_assay_21_antisense",
+    "ref_assay_21_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_22",
+   "calibrated": 0.0,
+   "literature": 0.0,
+   "pair": [
+    "ref_assay_22_sense",
+    "ref_assay_22_antisense"
+   ]
+  },
+  {
+   "assay": "ref_assay_22",
+   "calibrated": 0.0,
+   "literature": 0.0,
+   "pair": [
+    "ref_assay_22_sense",
+    "ref_assay_22_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_22",
+   "calibrated": 0.0,
+   "literature": 0.0,
+   "pair": [
+    "ref_assay_22_antisense",
+    "ref_assay_22_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_23",
+   "calibrated": -3.4,
+   "literature": -3.5,
+   "pair": [
+    "ref_assay_23_sense",
+    "ref_assay_23_antisense"
+   ]
+  },
+  {
+   "assay": "ref_assay_23",
+   "calibrated": -3.4,
+   "literature": -3.5,
+   "pair": [
+    "ref_assay_23_sense",
+    "ref_assay_23_probe"
+   ]
+  },
+  {
+   "assay": "ref_assay_23",
+   "calibrated": -3.4,
+   "literature": -3.5,
+   "pair": [
+    "ref_assay_23_antisense",
+    "ref_assay_23_probe"
+   ]
+  }
+ ],
+ "na_total_mM": {
+  "taqman_dna_50nM": 332.8402,
+  "taqman_high_mono": 382.8402,
+  "taqman_low_mg": 228.8839,
+  "taqman_low_salt": 94.4419,
+  "taqman_low_salt_mg025": 68.245,
+  "taqman_ref": 332.8402
+ },
+ "oligos": [
+  {
+   "calibrated": {
+    "gc_clamp": 2,
+    "gc_pct": 45.45,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -3.4,
+    "tm_C": 57.38
+   },
+   "conditions": "taqman_ref",
+   "id": "sense_primer",
+   "literature": {
+    "gc_clamp": 2,
+    "gc_pct": 45.45,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -3.5,
+    "tm_C": 57.38
+   },
+   "seq": "GTCATTGAGTCAGAACCTTGCA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 55.0,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": 0.0,
+    "tm_C": 56.16
+   },
+   "conditions": "taqman_ref",
+   "id": "antisense_primer",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 55.0,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": 0.0,
+    "tm_C": 56.16
+   },
+   "seq": "CCTCCTCTGCCTCACCTATT"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 32.0,
+    "hairpin_dG_kcal": -0.7,
+    "self_dimer_dG_kcal": -5.3,
+    "tm_C": 55.28
+   },
+   "conditions": "taqman_ref",
+   "id": "probe",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 32.0,
+    "hairpin_dG_kcal": -0.8,
+    "self_dimer_dG_kcal": -5.2,
+    "tm_C": 55.28
+   },
+   "seq": "TTCCAGATGCATGATTCTAATAAGA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 2,
+    "gc_pct": 45.45,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -3.4,
+    "tm_C": 64.27
+   },
+   "conditions": "taqman_dna_50nM",
+   "id": "sense_primer",
+   "literature": {
+    "gc_clamp": 2,
+    "gc_pct": 45.45,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -3.5,
+    "tm_C": 64.27
+   },
+   "seq": "GTCATTGAGTCAGAACCTTGCA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 55.0,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": 0.0,
+    "tm_C": 63.91
+   },
+   "conditions": "taqman_dna_50nM",
+   "id": "antisense_primer",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 55.0,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": 0.0,
+    "tm_C": 63.91
+   },
+   "seq": "CCTCCTCTGCCTCACCTATT"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 32.0,
+    "hairpin_dG_kcal": -0.7,
+    "self_dimer_dG_kcal": -5.3,
+    "tm_C": 61.49
+   },
+   "conditions": "taqman_dna_50nM",
+   "id": "probe",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 32.0,
+    "hairpin_dG_kcal": -0.8,
+    "self_dimer_dG_kcal": -5.2,
+    "tm_C": 61.49
+   },
+   "seq": "TTCCAGATGCATGATTCTAATAAGA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 2,
+    "gc_pct": 45.45,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -3.4,
+    "tm_C": 58.78
+   },
+   "conditions": "taqman_low_salt",
+   "id": "sense_primer",
+   "literature": {
+    "gc_clamp": 2,
+    "gc_pct": 45.45,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -3.5,
+    "tm_C": 58.78
+   },
+   "seq": "GTCATTGAGTCAGAACCTTGCA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 55.0,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": 0.0,
+    "tm_C": 58.4
+   },
+   "conditions": "taqman_low_salt",
+   "id": "antisense_primer",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 55.0,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": 0.0,
+    "tm_C": 58.4
+   },
+   "seq": "CCTCCTCTGCCTCACCTATT"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 32.0,
+    "hairpin_dG_kcal": -0.7,
+    "self_dimer_dG_kcal": -5.3,
+    "tm_C": 55.73
+   },
+   "conditions": "taqman_low_salt",
+   "id": "probe",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 32.0,
+    "hairpin_dG_kcal": -0.8,
+    "self_dimer_dG_kcal": -5.2,
+    "tm_C": 55.73
+   },
+   "seq": "TTCCAGATGCATGATTCTAATAAGA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 34.62,
+    "hairpin_dG_kcal": -1.0,
+    "self_dimer_dG_kcal": -1.6,
+    "tm_C": 56.96
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_02_sense",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 34.62,
+    "hairpin_dG_kcal": -1.1,
+    "self_dimer_dG_kcal": -1.5,
+    "tm_C": 56.96
+   },
+   "seq": "TCTAACTAGCACACTAACTAATGTCA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 2,
+    "gc_pct": 50.0,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -1.5,
+    "tm_C": 56.44
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_02_antisense",
+   "literature": {
+    "gc_clamp": 2,
+    "gc_pct": 50.0,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -1.6,
+    "tm_C": 56.44
+   },
+   "seq": "AACACTTGTGCGGTAACCTC"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 39.13,
+    "hairpin_dG_kcal": -1.8,
+    "self_dimer_dG_kcal": -4.3,
+    "tm_C": 55.22
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_02_probe",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 39.13,
+    "hairpin_dG_kcal": -1.8,
+    "self_dimer_dG_kcal": -3.9,
+    "tm_C": 55.22
+   },
+   "seq": "CAGAATGTGTTAACCTGTCTTCT"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 34.62,
+    "hairpin_dG_kcal": -1.0,
+    "self_dimer_dG_kcal": -1.6,
+    "tm_C": 55.05
+   },
+   "conditions": "taqman_low_mg",
+   "id": "ref_assay_02_sense",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 34.62,
+    "hairpin_dG_kcal": -1.1,
+    "self_dimer_dG_kcal": -1.5,
+    "tm_C": 55.05
+   },
+   "seq": "TCTAACTAGCACACTAACTAATGTCA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 2,
+    "gc_pct": 50.0,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -1.5,
+    "tm_C": 54.63
+   },
+   "conditions": "taqman_low_mg",
+   "id": "ref_assay_02_antisense",
+   "literature": {
+    "gc_clamp": 2,
+    "gc_pct": 50.0,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -1.6,
+    "tm_C": 54.63
+   },
+   "seq": "AACACTTGTGCGGTAACCTC"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 39.13,
+    "hairpin_dG_kcal": -1.8,
+    "self_dimer_dG_kcal": -4.3,
+    "tm_C": 53.36
+   },
+   "conditions": "taqman_low_mg",
+   "id": "ref_assay_02_probe",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 39.13,
+    "hairpin_dG_kcal": -1.8,
+    "self_dimer_dG_kcal": -3.9,
+    "tm_C": 53.36
+   },
+   "seq": "CAGAATGTGTTAACCTGTCTTCT"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 34.62,
+    "hairpin_dG_kcal": -1.0,
+    "self_dimer_dG_kcal": -1.6,
+    "tm_C": 62.91
+   },
+   "conditions": "taqman_dna_50nM",
+   "id": "ref_assay_02_sense",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 34.62,
+    "hairpin_dG_kcal": -1.1,
+    "self_dimer_dG_kcal": -1.5,
+    "tm_C": 62.91
+   },
+   "seq": "TCTAACTAGCACACTAACTAATGTCA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 2,
+    "gc_pct": 50.0,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -1.5,
+    "tm_C": 63.92
+   },
+   "conditions": "taqman_dna_50nM",
+   "id": "ref_assay_02_antisense",
+   "literature": {
+    "gc_clamp": 2,
+    "gc_pct": 50.0,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -1.6,
+    "tm_C": 63.92
+   },
+   "seq": "AACACTTGTGCGGTAACCTC"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 39.13,
+    "hairpin_dG_kcal": -1.8,
+    "self_dimer_dG_kcal": -4.3,
+    "tm_C": 61.83
+   },
+   "conditions": "taqman_dna_50nM",
+   "id": "ref_assay_02_probe",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 39.13,
+    "hairpin_dG_kcal": -1.8,
+    "self_dimer_dG_kcal": -3.9,
+    "tm_C": 61.83
+   },
+   "seq": "CAGAATGTGTTAACCTGTCTTCT"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 45.45,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -3.4,
+    "tm_C": 57.34
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_03_sense",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 45.45,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -3.5,
+    "tm_C": 57.34
+   },
+   "seq": "TGCATTTTCTTCTCCCCTTGTC"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 4,
+    "gc_pct": 43.48,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": 0.0,
+    "tm_C": 57.44
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_03_antisense",
+   "literature": {
+    "gc_clamp": 4,
+    "gc_pct": 43.48,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": 0.0,
+    "tm_C": 57.44
+   },
+   "seq": "TCCCTTCTTCTTAGTTTTCCCCT"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 2,
+    "gc_pct": 50.0,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": 0.0,
+    "tm_C": 57.04
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_03_probe",
+   "literature": {
+    "gc_clamp": 2,
+    "gc_pct": 50.0,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": 0.0,
+    "tm_C": 57.04
+   },
+   "seq": "TGCTGGCTGGAATGTGGATA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 45.45,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -3.4,
+    "tm_C": 58.76
+   },
+   "conditions": "taqman_low_salt",
+   "id": "ref_assay_03_sense",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 45.45,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -3.5,
+    "tm_C": 58.76
+   },
+   "seq": "TGCATTTTCTTCTCCCCTTGTC"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 4,
+    "gc_pct": 43.48,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": 0.0,
+    "tm_C": 58.54
+   },
+   "conditions": "taqman_low_salt",
+   "id": "ref_assay_03_antisense",
+   "literature": {
+    "gc_clamp": 4,
+    "gc_pct": 43.48,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": 0.0,
+    "tm_C": 58.54
+   },
+   "seq": "TCCCTTCTTCTTAGTTTTCCCCT"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 2,
+    "gc_pct": 50.0,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": 0.0,
+    "tm_C": 59.28
+   },
+   "conditions": "taqman_low_salt",
+   "id": "ref_assay_03_probe",
+   "literature": {
+    "gc_clamp": 2,
+    "gc_pct": 50.0,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": 0.0,
+    "tm_C": 59.28
+   },
+   "seq": "TGCTGGCTGGAATGTGGATA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 45.45,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -3.4,
+    "tm_C": 57.12
+   },
+   "conditions": "taqman_low_salt_mg025",
+   "id": "ref_assay_03_sense",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 45.45,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -3.5,
+    "tm_C": 57.12
+   },
+   "seq": "TGCATTTTCTTCTCCCCTTGTC"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 4,
+    "gc_pct": 43.48,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": 0.0,
+    "tm_C": 56.85
+   },
+   "conditions": "taqman_low_salt_mg025",
+   "id": "ref_assay_03_antisense",
+   "literature": {
+    "gc_clamp": 4,
+    "gc_pct": 43.48,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": 0.0,
+    "tm_C": 56.85
+   },
+   "seq": "TCCCTTCTTCTTAGTTTTCCCCT"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 2,
+    "gc_pct": 50.0,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": 0.0,
+    "tm_C": 57.63
+   },
+   "conditions": "taqman_low_salt_mg025",
+   "id": "ref_assay_03_probe",
+   "literature": {
+    "gc_clamp": 2,
+    "gc_pct": 50.0,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": 0.0,
+    "tm_C": 57.63
+   },
+   "seq": "TGCTGGCTGGAATGTGGATA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 45.45,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -3.4,
+    "tm_C": 58.05
+   },
+   "conditions": "taqman_high_mono",
+   "id": "ref_assay_03_sense",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 45.45,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -3.5,
+    "tm_C": 58.05
+   },
+   "seq": "TGCATTTTCTTCTCCCCTTGTC"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 4,
+    "gc_pct": 43.48,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": 0.0,
+    "tm_C": 58.17
+   },
+   "conditions": "taqman_high_mono",
+   "id": "ref_assay_03_antisense",
+   "literature": {
+    "gc_clamp": 4,
+    "gc_pct": 43.48,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": 0.0,
+    "tm_C": 58.17
+   },
+   "seq": "TCCCTTCTTCTTAGTTTTCCCCT"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 2,
+    "gc_pct": 50.0,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": 0.0,
+    "tm_C": 57.74
+   },
+   "conditions": "taqman_high_mono",
+   "id": "ref_assay_03_probe",
+   "literature": {
+    "gc_clamp": 2,
+    "gc_pct": 50.0,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": 0.0,
+    "tm_C": 57.74
+   },
+   "seq": "TGCTGGCTGGAATGTGGATA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 2,
+    "gc_pct": 55.0,
+    "hairpin_dG_kcal": -1.1,
+    "self_dimer_dG_kcal": -3.4,
+    "tm_C": 57.27
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_04_sense",
+   "literature": {
+    "gc_clamp": 2,
+    "gc_pct": 55.0,
+    "hairpin_dG_kcal": -0.9,
+    "self_dimer_dG_kcal": -3.5,
+    "tm_C": 57.27
+   },
+   "seq": "CAGGTTAGAGTTGCTGCACG"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 2,
+    "gc_pct": 63.16,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -2.0,
+    "tm_C": 56.98
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_04_antisense",
+   "literature": {
+    "gc_clamp": 2,
+    "gc_pct": 63.16,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -1.9,
+    "tm_C": 56.98
+   },
+   "seq": "GTGGGACGATCTGGGCTAG"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 3,
+    "gc_pct": 55.0,
+    "hairpin_dG_kcal": -1.3,
+    "self_dimer_dG_kcal": -2.3,
+    "tm_C": 57.2
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_04_probe",
+   "literature": {
+    "gc_clamp": 3,
+    "gc_pct": 55.0,
+    "hairpin_dG_kcal": -1.3,
+    "self_dimer_dG_kcal": -2.4,
+    "tm_C": 57.2
+   },
+   "seq": "ATTCACCCCTGGATGATCCG"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 2,
+    "gc_pct": 43.48,
+    "hairpin_dG_kcal": -0.7,
+    "self_dimer_dG_kcal": -1.1,
+    "tm_C": 57.65
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_05_sense",
+   "literature": {
+    "gc_clamp": 2,
+    "gc_pct": 43.48,
+    "hairpin_dG_kcal": -0.7,
+    "self_dimer_dG_kcal": -1.3,
+    "tm_C": 57.65
+   },
+   "seq": "TGCTCTTTCCAATTCTTGTCCTC"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 2,
+    "gc_pct": 55.0,
+    "hairpin_dG_kcal": -1.3,
+    "self_dimer_dG_kcal": -1.6,
+    "tm_C": 56.76
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_05_antisense",
+   "literature": {
+    "gc_clamp": 2,
+    "gc_pct": 55.0,
+    "hairpin_dG_kcal": -1.1,
+    "self_dimer_dG_kcal": -1.5,
+    "tm_C": 56.76
+   },
+   "seq": "TCACCCTTCCCATCTAGTGC"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 4,
+    "gc_pct": 55.0,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": 0.0,
+    "tm_C": 57.11
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_05_probe",
+   "literature": {
+    "gc_clamp": 4,
+    "gc_pct": 55.0,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": 0.0,
+    "tm_C": 57.11
+   },
+   "seq": "TGAGTAATAAGCCCCTGCCC"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 2,
+    "gc_pct": 50.0,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -0.5,
+    "tm_C": 57.65
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_06_sense",
+   "literature": {
+    "gc_clamp": 2,
+    "gc_pct": 50.0,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -0.7,
+    "tm_C": 57.65
+   },
+   "seq": "GGAAGACGCCCATATACAAACC"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 47.62,
+    "hairpin_dG_kcal": -1.1,
+    "self_dimer_dG_kcal": -1.1,
+    "tm_C": 55.95
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_06_antisense",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 47.62,
+    "hairpin_dG_kcal": -1.0,
+    "self_dimer_dG_kcal": -1.1,
+    "tm_C": 55.95
+   },
+   "seq": "GACTTGCCTTGTCTCAGATGA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 55.0,
+    "hairpin_dG_kcal": -1.0,
+    "self_dimer_dG_kcal": -1.0,
+    "tm_C": 57.55
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_06_probe",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 55.0,
+    "hairpin_dG_kcal": -1.1,
+    "self_dimer_dG_kcal": -1.3,
+    "tm_C": 57.55
+   },
+   "seq": "CCAACAGTCCCCCAATGTCT"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 50.0,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": 0.0,
+    "tm_C": 56.91
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_07_sense",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 50.0,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": 0.0,
+    "tm_C": 56.91
+   },
+   "seq": "CAAAGCCAGGTGTGTGTTCA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 45.45,
+    "hairpin_dG_kcal": -0.9,
+    "self_dimer_dG_kcal": -1.0,
+    "tm_C": 56.93
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_07_antisense",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 45.45,
+    "hairpin_dG_kcal": -1.0,
+    "self_dimer_dG_kcal": -1.1,
+    "tm_C": 56.93
+   },
+   "seq": "GCGAAAAGACTCAAGAGGATGA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 60.0,
+    "hairpin_dG_kcal": -1.3,
+    "self_dimer_dG_kcal": -2.0,
+    "tm_C": 57.15
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_07_probe",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 60.0,
+    "hairpin_dG_kcal": -1.3,
+    "self_dimer_dG_kcal": -1.8,
+    "tm_C": 57.15
+   },
+   "seq": "GGTACTCCTGTGGGGATGAC"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 2,
+    "gc_pct": 55.0,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": 0.0,
+    "tm_C": 56.71
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_08_sense",
+   "literature": {
+    "gc_clamp": 2,
+    "gc_pct": 55.0,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": 0.0,
+    "tm_C": 56.71
+   },
+   "seq": "CCCAGTGTGTGTTGTTCTCC"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 5,
+    "gc_pct": 66.67,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": 0.0,
+    "tm_C": 58.86
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_08_antisense",
+   "literature": {
+    "gc_clamp": 5,
+    "gc_pct": 66.67,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": 0.0,
+    "tm_C": 58.86
+   },
+   "seq": "AGTCTCGCTCTGTCGCCC"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 55.0,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": 0.0,
+    "tm_C": 57.34
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_08_probe",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 55.0,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": 0.0,
+    "tm_C": 57.34
+   },
+   "seq": "GCCTATGTGCGTGTGTTCTC"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 2,
+    "gc_pct": 45.45,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -3.4,
+    "tm_C": 57.38
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_09_sense",
+   "literature": {
+    "gc_clamp": 2,
+    "gc_pct": 45.45,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -3.5,
+    "tm_C": 57.38
+   },
+   "seq": "GTCATTGAGTCAGAACCTTGCA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 3,
+    "gc_pct": 63.16,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": 0.0,
+    "tm_C": 57.02
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_09_antisense",
+   "literature": {
+    "gc_clamp": 3,
+    "gc_pct": 63.16,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": 0.0,
+    "tm_C": 57.02
+   },
+   "seq": "CTCTCTCCCTCCTCTGCCT"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 32.0,
+    "hairpin_dG_kcal": -0.7,
+    "self_dimer_dG_kcal": -5.3,
+    "tm_C": 55.28
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_09_probe",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 32.0,
+    "hairpin_dG_kcal": -0.8,
+    "self_dimer_dG_kcal": -5.2,
+    "tm_C": 55.28
+   },
+   "seq": "TTCCAGATGCATGATTCTAATAAGA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 2,
+    "gc_pct": 45.45,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -3.4,
+    "tm_C": 55.53
+   },
+   "conditions": "taqman_low_mg",
+   "id": "ref_assay_09_sense",
+   "literature": {
+    "gc_clamp": 2,
+    "gc_pct": 45.45,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -3.5,
+    "tm_C": 55.53
+   },
+   "seq": "GTCATTGAGTCAGAACCTTGCA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 3,
+    "gc_pct": 63.16,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": 0.0,
+    "tm_C": 55.15
+   },
+   "conditions": "taqman_low_mg",
+   "id": "ref_assay_09_antisense",
+   "literature": {
+    "gc_clamp": 3,
+    "gc_pct": 63.16,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": 0.0,
+    "tm_C": 55.15
+   },
+   "seq": "CTCTCTCCCTCCTCTGCCT"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 32.0,
+    "hairpin_dG_kcal": -0.7,
+    "self_dimer_dG_kcal": -5.3,
+    "tm_C": 53.38
+   },
+   "conditions": "taqman_low_mg",
+   "id": "ref_assay_09_probe",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 32.0,
+    "hairpin_dG_kcal": -0.8,
+    "self_dimer_dG_kcal": -5.2,
+    "tm_C": 53.38
+   },
+   "seq": "TTCCAGATGCATGATTCTAATAAGA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 40.91,
+    "hairpin_dG_kcal": -0.9,
+    "self_dimer_dG_kcal": -3.4,
+    "tm_C": 54.81
+   },
+   "conditions": "taqman_low_mg",
+   "id": "ref_assay_10_sense",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 40.91,
+    "hairpin_dG_kcal": -1.0,
+    "self_dimer_dG_kcal": -3.5,
+    "tm_C": 54.81
+   },
+   "seq": "TGAGTCAGAACCTTGCATTTCA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 2,
+    "gc_pct": 63.16,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": 0.0,
+    "tm_C": 54.66
+   },
+   "conditions": "taqman_low_mg",
+   "id": "ref_assay_10_antisense",
+   "literature": {
+    "gc_clamp": 2,
+    "gc_pct": 63.16,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": 0.0,
+    "tm_C": 54.66
+   },
+   "seq": "GAACAGCCTCTCTCCCTCC"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 32.0,
+    "hairpin_dG_kcal": -0.7,
+    "self_dimer_dG_kcal": -5.3,
+    "tm_C": 53.38
+   },
+   "conditions": "taqman_low_mg",
+   "id": "ref_assay_10_probe",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 32.0,
+    "hairpin_dG_kcal": -0.8,
+    "self_dimer_dG_kcal": -5.2,
+    "tm_C": 53.38
+   },
+   "seq": "TTCCAGATGCATGATTCTAATAAGA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 55.0,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -14.7,
+    "tm_C": 62.44
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_11_sense",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 55.0,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -13.8,
+    "tm_C": 62.44
+   },
+   "seq": "GCGCGCGCAAACAACAACAA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 55.0,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -14.7,
+    "tm_C": 61.9
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_11_antisense",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 55.0,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -13.7,
+    "tm_C": 61.9
+   },
+   "seq": "CGCGCGCGAAACAACAACAA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 15.0,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -3.9,
+    "tm_C": 40.52
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_11_probe",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 15.0,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -3.6,
+    "tm_C": 40.52
+   },
+   "seq": "ATATATATAAACAACAACAA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 15.0,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -3.6,
+    "tm_C": 40.82
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_12_sense",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 15.0,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -3.3,
+    "tm_C": 40.82
+   },
+   "seq": "TATATATAAAACAACAACAA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 15.0,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -5.0,
+    "tm_C": 42.92
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_12_antisense",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 15.0,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -4.7,
+    "tm_C": 42.92
+   },
+   "seq": "AATTAATTAAACAACAACAA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 55.0,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -12.9,
+    "tm_C": 60.58
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_12_probe",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 55.0,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -12.3,
+    "tm_C": 60.58
+   },
+   "seq": "GGCCGGCCAAACAACAACAA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 27.78,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -4.3,
+    "tm_C": 44.11
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_13_sense",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 27.78,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -3.9,
+    "tm_C": 44.11
+   },
+   "seq": "GAATTCAAACAACAACAA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 38.89,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -5.8,
+    "tm_C": 48.04
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_13_antisense",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 38.89,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -5.5,
+    "tm_C": 48.04
+   },
+   "seq": "GGATCCAAACAACAACAA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 27.78,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -4.0,
+    "tm_C": 43.17
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_13_probe",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 27.78,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -3.6,
+    "tm_C": 43.17
+   },
+   "seq": "CATATGAAACAACAACAA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 38.89,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -8.1,
+    "tm_C": 50.95
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_14_sense",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 38.89,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -7.8,
+    "tm_C": 50.95
+   },
+   "seq": "ACGCGTAAACAACAACAA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 0,
+    "gc_pct": 11.11,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -4.9,
+    "tm_C": 33.4
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_14_antisense",
+   "literature": {
+    "gc_clamp": 0,
+    "gc_pct": 11.11,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -4.8,
+    "tm_C": 33.4
+   },
+   "seq": "TGTACATTATTATTATTA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 38.89,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -6.5,
+    "tm_C": 48.85
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_14_probe",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 38.89,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -6.1,
+    "tm_C": 48.85
+   },
+   "seq": "CTGCAGAAACAACAACAA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 38.89,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -5.8,
+    "tm_C": 48.0
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_15_sense",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 38.89,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -5.5,
+    "tm_C": 48.0
+   },
+   "seq": "GGTACCAAACAACAACAA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 27.78,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -5.3,
+    "tm_C": 45.13
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_15_antisense",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 27.78,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -5.2,
+    "tm_C": 45.13
+   },
+   "seq": "AAGCTTAAACAACAACAA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 38.89,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -6.5,
+    "tm_C": 48.98
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_15_probe",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 38.89,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -6.0,
+    "tm_C": 48.98
+   },
+   "seq": "GACGTCAAACAACAACAA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 38.89,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -6.8,
+    "tm_C": 49.3
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_16_sense",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 38.89,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -6.3,
+    "tm_C": 49.3
+   },
+   "seq": "CACGTGAAACAACAACAA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 27.78,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -4.5,
+    "tm_C": 43.36
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_16_antisense",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 27.78,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -4.4,
+    "tm_C": 43.36
+   },
+   "seq": "AGTACTAAACAACAACAA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 38.89,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -7.2,
+    "tm_C": 50.82
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_16_probe",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 38.89,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -7.2,
+    "tm_C": 50.82
+   },
+   "seq": "TGGCCAAAACAACAACAA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 0,
+    "gc_pct": 11.11,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -5.1,
+    "tm_C": 34.43
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_17_sense",
+   "literature": {
+    "gc_clamp": 0,
+    "gc_pct": 11.11,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -5.0,
+    "tm_C": 34.43
+   },
+   "seq": "ACATGTTTATTATTATTA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 38.89,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -6.9,
+    "tm_C": 49.12
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_17_antisense",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 38.89,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -6.8,
+    "tm_C": 49.12
+   },
+   "seq": "AGGCCTAAACAACAACAA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 43.75,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -4.4,
+    "tm_C": 46.56
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_17_probe",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 43.75,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -4.2,
+    "tm_C": 46.56
+   },
+   "seq": "GGCCAAACAACAACAA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 4,
+    "gc_pct": 41.18,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -4.4,
+    "tm_C": 47.84
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_18_sense",
+   "literature": {
+    "gc_clamp": 4,
+    "gc_pct": 41.18,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -4.2,
+    "tm_C": 47.84
+   },
+   "seq": "AAACAACAACAAAGGCC"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 5,
+    "gc_pct": 47.06,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -4.4,
+    "tm_C": 50.89
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_18_antisense",
+   "literature": {
+    "gc_clamp": 5,
+    "gc_pct": 47.06,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -4.2,
+    "tm_C": 50.89
+   },
+   "seq": "AAACAACAACAACGGCC"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 5,
+    "gc_pct": 47.06,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -4.4,
+    "tm_C": 49.94
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_18_probe",
+   "literature": {
+    "gc_clamp": 5,
+    "gc_pct": 47.06,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -4.2,
+    "tm_C": 49.94
+   },
+   "seq": "AAACAACAACAAGGGCC"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 4,
+    "gc_pct": 41.18,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -4.4,
+    "tm_C": 47.92
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_19_sense",
+   "literature": {
+    "gc_clamp": 4,
+    "gc_pct": 41.18,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -4.2,
+    "tm_C": 47.92
+   },
+   "seq": "AAACAACAACAATGGCC"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 31.25,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -2.0,
+    "tm_C": 40.29
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_19_antisense",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 31.25,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -1.8,
+    "tm_C": 40.29
+   },
+   "seq": "GTACAAACAACAACAA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 29.41,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -2.0,
+    "tm_C": 41.89
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_19_probe",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 29.41,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -1.8,
+    "tm_C": 41.89
+   },
+   "seq": "AAACAACAACAAAGTAC"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 2,
+    "gc_pct": 17.65,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -2.0,
+    "tm_C": 33.68
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_20_sense",
+   "literature": {
+    "gc_clamp": 2,
+    "gc_pct": 17.65,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -1.8,
+    "tm_C": 33.68
+   },
+   "seq": "ATTATTATTATTCGTAC"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 2,
+    "gc_pct": 35.29,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -2.0,
+    "tm_C": 43.94
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_20_antisense",
+   "literature": {
+    "gc_clamp": 2,
+    "gc_pct": 35.29,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -1.8,
+    "tm_C": 43.94
+   },
+   "seq": "AAACAACAACAAGGTAC"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 11.76,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -2.0,
+    "tm_C": 30.02
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_20_probe",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 11.76,
+    "hairpin_dG_kcal": 0.0,
+    "self_dimer_dG_kcal": -1.8,
+    "tm_C": 30.02
+   },
+   "seq": "TTATTATTATTATGTAC"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 3,
+    "gc_pct": 60.0,
+    "hairpin_dG_kcal": -2.9,
+    "self_dimer_dG_kcal": -2.9,
+    "tm_C": 29.19
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_21_sense",
+   "literature": {
+    "gc_clamp": 3,
+    "gc_pct": 60.0,
+    "hairpin_dG_kcal": -2.6,
+    "self_dimer_dG_kcal": -2.7,
+    "tm_C": 29.19
+   },
+   "seq": "GCGTTTTCGC"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 4,
+    "gc_pct": 66.67,
+    "hairpin_dG_kcal": -5.2,
+    "self_dimer_dG_kcal": -5.2,
+    "tm_C": 43.65
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_21_antisense",
+   "literature": {
+    "gc_clamp": 4,
+    "gc_pct": 66.67,
+    "hairpin_dG_kcal": -4.8,
+    "self_dimer_dG_kcal": -5.0,
+    "tm_C": 43.65
+   },
+   "seq": "GCGCTTTTGCGC"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 1,
+    "gc_pct": 33.33,
+    "hairpin_dG_kcal": -2.7,
+    "self_dimer_dG_kcal": -2.7,
+    "tm_C": 25.09
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_21_probe",
+   "literature": {
+    "gc_clamp": 1,
+    "gc_pct": 33.33,
+    "hairpin_dG_kcal": -2.6,
+    "self_dimer_dG_kcal": -2.7,
+    "tm_C": 25.09
+   },
+   "seq": "GTGTTTTTACAC"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 2,
+    "gc_pct": 33.33,
+    "hairpin_dG_kcal": -3.0,
+    "self_dimer_dG_kcal": -3.0,
+    "tm_C": 27.11
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_22_sense",
+   "literature": {
+    "gc_clamp": 2,
+    "gc_pct": 33.33,
+    "hairpin_dG_kcal": -3.0,
+    "self_dimer_dG_kcal": -3.2,
+    "tm_C": 27.11
+   },
+   "seq": "AGCTTTTTAGCT"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 2,
+    "gc_pct": 33.33,
+    "hairpin_dG_kcal": -3.3,
+    "self_dimer_dG_kcal": -3.3,
+    "tm_C": 29.27
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_22_antisense",
+   "literature": {
+    "gc_clamp": 2,
+    "gc_pct": 33.33,
+    "hairpin_dG_kcal": -3.3,
+    "self_dimer_dG_kcal": -3.4,
+    "tm_C": 29.27
+   },
+   "seq": "ACGTTTTTACGT"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 2,
+    "gc_pct": 57.14,
+    "hairpin_dG_kcal": -5.1,
+    "self_dimer_dG_kcal": -5.1,
+    "tm_C": 42.22
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_22_probe",
+   "literature": {
+    "gc_clamp": 2,
+    "gc_pct": 57.14,
+    "hairpin_dG_kcal": -4.8,
+    "self_dimer_dG_kcal": -4.9,
+    "tm_C": 42.22
+   },
+   "seq": "GGTGGTTTTCCACC"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 2,
+    "gc_pct": 33.33,
+    "hairpin_dG_kcal": -3.4,
+    "self_dimer_dG_kcal": -3.4,
+    "tm_C": 30.67
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_23_sense",
+   "literature": {
+    "gc_clamp": 2,
+    "gc_pct": 33.33,
+    "hairpin_dG_kcal": -3.4,
+    "self_dimer_dG_kcal": -3.5,
+    "tm_C": 30.67
+   },
+   "seq": "TGCATTTTTGCA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 2,
+    "gc_pct": 33.33,
+    "hairpin_dG_kcal": -3.4,
+    "self_dimer_dG_kcal": -3.4,
+    "tm_C": 30.67
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_23_antisense",
+   "literature": {
+    "gc_clamp": 2,
+    "gc_pct": 33.33,
+    "hairpin_dG_kcal": -3.4,
+    "self_dimer_dG_kcal": -3.5,
+    "tm_C": 30.67
+   },
+   "seq": "TGCATTTTTGCA"
+  },
+  {
+   "calibrated": {
+    "gc_clamp": 2,
+    "gc_pct": 33.33,
+    "hairpin_dG_kcal": -3.4,
+    "self_dimer_dG_kcal": -3.4,
+    "tm_C": 30.67
+   },
+   "conditions": "taqman_ref",
+   "id": "ref_assay_23_probe",
+   "literature": {
+    "gc_clamp": 2,
+    "gc_pct": 33.33,
+    "hairpin_dG_kcal": -3.4,
+    "self_dimer_dG_kcal": -3.5,
+    "tm_C": 30.67
+   },
+   "seq": "TGCATTTTTGCA"
+  }
+ ]
+}

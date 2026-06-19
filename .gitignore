@@ -1,0 +1,17 @@
+data/
+raw_data/
+calibration/
+figures/
+!figures/
+!figures/flare_validation.png
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+dist/
+build/
+*.egg-info/
+.DS_Store
