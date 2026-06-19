@@ -25,12 +25,12 @@ def test_constants_fit_dimer_table():
         'CT': -1.3955, 'GA': -1.4430, 'CG': -2.3500, 'GC': -2.3830, 'GG': -1.9250,
     }
     for k, v in expected.items():
-        assert params.DG37_BEACON_FIT_RAW[k] == v, (k, params.DG37_BEACON_FIT_RAW[k])
-    assert params.DG37_BEACON_FIT_INIT == 1.87
-    assert params.DG37_BEACON_FIT_AT_PENALTY == 0.1455
-    assert params.DG37_BEACON_FIT_THRESHOLD == 0.35
-    assert params.DG37_BEACON_FIT_HAIRPIN_NUCLEATION == 1.88
-    assert params.DG37_BEACON_FIT_HAIRPIN_AT_PENALTY == 0.14
+        assert params.DG37_CALIBRATED_FIT_RAW[k] == v, (k, params.DG37_CALIBRATED_FIT_RAW[k])
+    assert params.DG37_CALIBRATED_FIT_INIT == 1.87
+    assert params.DG37_CALIBRATED_FIT_AT_PENALTY == 0.1455
+    assert params.DG37_CALIBRATED_FIT_THRESHOLD == 0.35
+    assert params.DG37_CALIBRATED_FIT_HAIRPIN_NUCLEATION == 1.88
+    assert params.DG37_CALIBRATED_FIT_HAIRPIN_AT_PENALTY == 0.14
 
 
 def test_santalucia_1998_nn_table():
@@ -43,7 +43,7 @@ def test_santalucia_1998_nn_table():
 
 # the public methods and helpers must stay callable
 def test_engine_api_surface():
-    for mode in ('literature', 'beacon_exact'):
+    for mode in ('literature', 'calibrated'):
         e = Engine(calibration_mode=mode)
         for m in ('tm', 'na_total_mM', 'self_dimer_dG', 'cross_dimer_dG',
                   'hairpin_dG', 'analyze_oligo'):
@@ -55,10 +55,9 @@ def test_engine_api_surface():
     assert isinstance(gc_clamp("GTCATTGAGTCAGAACCTTGCA"), int)
 
 
-def test_modes_and_reference_cache_exist():
+def test_modes_exist():
     Engine(calibration_mode='literature')
-    Engine(calibration_mode='beacon_exact')
-    Engine(calibration_mode='beacon_exact', reference_cache=True)
+    Engine(calibration_mode='calibrated')
     try:
         Engine(calibration_mode='nonsense')
         assert False, "should reject unknown mode"
@@ -68,7 +67,7 @@ def test_modes_and_reference_cache_exist():
 
 # same input gives the same output and short oligos do not crash
 def test_determinism():
-    e = Engine(calibration_mode='beacon_exact')
+    e = Engine(calibration_mode='calibrated')
     a = e.analyze_oligo("ACGTACGTACGTACGT", "taqman_ref")
     b = e.analyze_oligo("ACGTACGTACGTACGT", "taqman_ref")
     assert a == b
@@ -80,7 +79,7 @@ def test_case_insensitive():
 
 
 def test_edge_cases_no_crash():
-    e = Engine(calibration_mode='beacon_exact')
+    e = Engine(calibration_mode='calibrated')
     for s in ("AT", "GC", "AAAAA", "GGGGGGGG", "ATGCATGCAT", "A"):
         r = e.analyze_oligo(s, "taqman_ref")
         for key in ('self_dimer_dG_kcal', 'hairpin_dG_kcal'):

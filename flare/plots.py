@@ -6,8 +6,8 @@ from .validate import collect
 
 OBS = [('tm', 'Tm  (°C)'), ('self_dimer', 'self dimer  (kcal/mol)'),
        ('cross_dimer', 'cross dimer  (kcal/mol)'), ('hairpin', 'hairpin  (kcal/mol)')]
-SERIES = ['flare exact', 'flare literature']
-COLORS = {'flare exact': '#2b6cb0', 'flare literature': '#d6453d'}
+SERIES = ['flare calibrated', 'flare literature']
+COLORS = {'flare calibrated': '#2b6cb0', 'flare literature': '#d6453d'}
 FOOTER = 'compared against recorded reference values'
 
 
@@ -16,11 +16,11 @@ def _frame():
     One row per oligo and Flare mode with the error versus the reference value.
     """
     import pandas as pd
-    lit, exact = collect('literature'), collect('beacon_exact')
+    lit, cal = collect('literature'), collect('calibrated')
     rec = []
     for obs, olabel in OBS:
-        for rl, rb in zip(lit[obs], exact[obs]):
-            rec.append({'observable': olabel, 'series': 'flare exact', 'error': round(rb[-1] - rb[-2], 3)})
+        for rl, rb in zip(lit[obs], cal[obs]):
+            rec.append({'observable': olabel, 'series': 'flare calibrated', 'error': round(rb[-1] - rb[-2], 3)})
             rec.append({'observable': olabel, 'series': 'flare literature', 'error': round(rl[-1] - rl[-2], 3)})
     df = pd.DataFrame(rec)
     df['observable'] = pd.Categorical(df['observable'], [o[1] for o in OBS])
@@ -39,7 +39,7 @@ def _chart(df, out_png):
                           stroke=0, show_legend=True)
          + p9.facet_wrap('observable', scales='free_y', ncol=2)
          + p9.scale_color_manual(values=COLORS, name='')
-         + p9.labs(title='flare exact vs flare literature',
+         + p9.labs(title='flare calibrated vs flare literature',
                    subtitle='error against reference / one point per oligo / grey line at zero is the reference',
                    caption=FOOTER,
                    x='', y='error  (°C or kcal/mol)')
@@ -78,7 +78,7 @@ def make(path):
 def main(argv=None):
     import os
     argv = sys.argv[1:] if argv is None else argv
-    path = argv[0] if argv else os.path.join('figures', 'flare_vs_beacon.png')
+    path = argv[0] if argv else os.path.join('figures', 'flare_validation.png')
     os.makedirs(os.path.dirname(path) or '.', exist_ok=True)
     print("wrote", make(path))
 

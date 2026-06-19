@@ -26,7 +26,7 @@ ARB_CONDITIONS = "taqman_ref"
 def engines():
     return {
         'literature': Engine(calibration_mode='literature'),
-        'beacon_exact': Engine(calibration_mode='beacon_exact'),
+        'calibrated': Engine(calibration_mode='calibrated'),
     }
 
 

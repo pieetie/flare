@@ -1,12 +1,12 @@
 """
-The standalone single-file module must match the package exact mode.
+The standalone single-file module must match the package calibrated mode.
 """
 import os
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-import flare_beacon as fb                 # noqa: E402
+import flare_compat as fb                 # noqa: E402
 from flare import loader                  # noqa: E402
 from flare.core import Engine             # noqa: E402
 
@@ -17,7 +17,7 @@ def test_standalone_matches_flare():
     """
     oligos = loader.load_oligos()
     conds = loader.load_conditions()
-    eng = Engine(calibration_mode='beacon_exact')
+    eng = Engine(calibration_mode='calibrated')
     for assay in loader.load_assays():
         c = conds[assay['conditions']]
         kw = dict(dna_nM=c['nucleic_acid_nM'], monovalent_mM=c['monovalent_mM'],

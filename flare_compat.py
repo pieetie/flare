@@ -2,13 +2,13 @@
 Single-file oligo thermodynamics for a TaqMan assay, built on published nearest-neighbor science.
 
 No dependencies beyond the Python standard library; download this file and call assay().
-Parameters are calibrated for interoperability with common reference outputs.
+Parameters are calibrated against observed reference outputs for interoperability.
 
-    from flare_beacon import assay
+    from flare_compat import assay
     assay("TCTAACTAGCACACTAACTAATGTCA", "AACACTTGTGCGGTAACCTC", "CAGAATGTGTTAACCTGTCTTCT")
 
 Defaults are the TaqMan reference conditions: 0.25 nM oligo, 50 mM monovalent, 5 mM free magnesium.
-Parameters come from published literature; exact mode uses empirically observed reference outputs only.
+Parameters come from published literature; the calibrated values are tuned against observed reference outputs only.
 See NOTICE.md for affiliation and trademark disclaimers.
 """
 import math
@@ -37,7 +37,7 @@ SYMMETRY = (0.0, -1.4)
 VON_AHSEN_K = 126.49
 X_FACTOR = 1
 
-# dimer dG37 per nearest neighbor step, compatibility fit, complement filled in
+# dimer dG37 per nearest neighbor step, calibrated fit, complement filled in
 _DG37_RAW = {
     'AA': -1.1370, 'AT': -0.9730, 'TA': -0.7130, 'CA': -1.5870, 'GT': -1.5730,
     'CT': -1.3955, 'GA': -1.4430, 'CG': -2.3500, 'GC': -2.3830, 'GG': -1.9250,
@@ -235,7 +235,7 @@ def assay(sense, antisense, probe, dna_nM=0.25, monovalent_mM=50.0, mg_free_mM=5
 if __name__ == '__main__':
     import sys
     if len(sys.argv) != 4:
-        print("usage  python flare_beacon.py SENSE ANTISENSE PROBE")
+        print("usage  python flare_compat.py SENSE ANTISENSE PROBE")
         sys.exit(1)
     out = assay(*sys.argv[1:4])
     for name, r in out['oligos'].items():

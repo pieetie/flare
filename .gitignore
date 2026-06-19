@@ -3,7 +3,7 @@ raw_data/
 calibration/
 figures/
 !figures/
-!figures/flare_vs_beacon.png
+!figures/flare_validation.png
 __pycache__/
 *.py[cod]
 .pytest_cache/

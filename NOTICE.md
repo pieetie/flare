@@ -4,19 +4,19 @@ Flare is an independent project.
 It is not affiliated with, endorsed by, or connected to PremierBiosoft.
 
 Beacon Designer is a product and trademark of PremierBiosoft.
-The name is used here only to identify the tool that Flare is compared against.
+Any reference to it here is nominative only, to identify a third-party tool.
 
-Flare does not contain any PremierBiosoft source code or logo.
+Flare does not contain any PremierBiosoft source code, binary, or logo.
 It is a fresh implementation built on published nearest-neighbor thermodynamics;
 see the references below.
 
-Parameters are derived from the published literature,
-then empirically adjusted on outputs observed during normal use of Beacon Designer Free Edition,
-with no access to PremierBiosoft source code or binaries.
+Parameters are derived from the published literature. A small number are tuned
+against reference values observed when using the free edition of that tool
+normally, with no access to its source code or binaries.
 
-The reference values used for the benchmark are TaqMan targets
-entered manually into Beacon Designer Free Edition.
-No proprietary code or asset is redistributed.
+Those reference values are thermodynamic outputs for TaqMan targets entered
+manually. No proprietary code or asset is redistributed; the recorded reference
+values themselves are not part of this repository.
 
 ## References
 

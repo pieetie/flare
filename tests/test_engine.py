@@ -55,11 +55,11 @@ def test_tm_all_conditions():
     assert max(abs(d) for d in ds) <= 0.02, max(abs(d) for d in ds)
 
 
-def test_exact_mode():
+def test_calibrated_mode():
     """
     The fitted model reaches a full match with recorded reference values.
     """
-    rows = collect(calibration_mode='beacon_exact')
+    rows = collect(calibration_mode='calibrated')
     s_sd = stats(rows['self_dimer'])
     s_cd = stats(rows['cross_dimer'])
     s_hp = stats(rows['hairpin'])
@@ -72,17 +72,6 @@ def test_exact_mode():
     assert stats(rows['gc_pct'])['exact'] == n
     for o in ('self_dimer', 'cross_dimer', 'hairpin'):
         assert stats(rows[o])['max_abs'] == 0.0, (o, stats(rows[o]))
-
-
-def test_reference_cache_is_exact():
-    """
-    the optional cache returns every recorded value
-    """
-    rows = collect(calibration_mode='beacon_exact', reference_cache=True)
-    for obs in ('tm', 'self_dimer', 'cross_dimer', 'hairpin'):
-        s = stats(rows[obs])
-        assert s['exact'] == s['n'], (obs, s)
-        assert s['max_abs'] == 0.0, (obs, s)
 
 
 def test_known_values():

@@ -30,29 +30,25 @@ def gc_clamp(seq, window=5):
 
 class Engine:
     """
-    Compute Tm, GC and dimer energies in literature or exact compatibility mode.
+    Compute Tm, GC and dimer energies in literature or calibrated mode.
     """
 
-    def __init__(self, config=None, calibration_mode='literature', reference_cache=False):
+    def __init__(self, config=None, calibration_mode='literature'):
         self.cfg = dict(config or load_config())
         self.mode = calibration_mode
         self.conditions = loader.load_conditions()
-        self.reference = None
-        if calibration_mode == 'beacon_exact':
-            self.cfg['dimer_dG37_table'] = params.DG37_BEACON_FIT
-            self.cfg['dimer_init_dG'] = params.DG37_BEACON_FIT_INIT
-            self.cfg['dimer_terminal_at_penalty'] = params.DG37_BEACON_FIT_AT_PENALTY
-            self.cfg['hairpin_nucleation_dG'] = params.DG37_BEACON_FIT_HAIRPIN_NUCLEATION
-            self.cfg['hairpin_terminal_at_penalty'] = params.DG37_BEACON_FIT_HAIRPIN_AT_PENALTY
+        if calibration_mode == 'calibrated':
+            self.cfg['dimer_dG37_table'] = params.DG37_CALIBRATED_FIT
+            self.cfg['dimer_init_dG'] = params.DG37_CALIBRATED_FIT_INIT
+            self.cfg['dimer_terminal_at_penalty'] = params.DG37_CALIBRATED_FIT_AT_PENALTY
+            self.cfg['hairpin_nucleation_dG'] = params.DG37_CALIBRATED_FIT_HAIRPIN_NUCLEATION
+            self.cfg['hairpin_terminal_at_penalty'] = params.DG37_CALIBRATED_FIT_HAIRPIN_AT_PENALTY
             self.cfg['dimer_min_run'] = 3
             self.cfg['hairpin_min_stem'] = 3
-            self.cfg['dimer_threshold'] = params.DG37_BEACON_FIT_THRESHOLD
-            self.cfg['hairpin_threshold'] = params.DG37_BEACON_FIT_HAIRPIN_THRESHOLD
+            self.cfg['dimer_threshold'] = params.DG37_CALIBRATED_FIT_THRESHOLD
+            self.cfg['hairpin_threshold'] = params.DG37_CALIBRATED_FIT_HAIRPIN_THRESHOLD
         elif calibration_mode != 'literature':
             raise ValueError(f"unknown calibration_mode {calibration_mode!r}")
-        if reference_cache:
-            from .reference import Reference
-            self.reference = Reference()
 
     def _cond(self, conditions):
         if isinstance(conditions, str):
@@ -66,35 +62,19 @@ class Engine:
 
     def tm(self, seq, conditions):
         c = self._cond(conditions)
-        if self.reference is not None and isinstance(conditions, str):
-            hit = self.reference.tm(seq, conditions)
-            if hit is not None:
-                return hit
         ct = c['nucleic_acid_nM'] * 1e-9
         na = self.na_total_mM(c) / 1000.0
         return round(tmmod.tm(seq, ct, na, self.cfg), 2)
 
     def self_dimer_dG(self, seq):
-        if self.reference is not None:
-            hit = self.reference.self_dimer(seq)
-            if hit is not None:
-                return hit, None
         dg, st = dimer.self_dimer(seq, self.cfg)
         return dimer.report_dG(dg, self.cfg.get('dimer_threshold', -0.45)), st
 
     def cross_dimer_dG(self, a, b):
-        if self.reference is not None:
-            hit = self.reference.cross_dimer(a, b)
-            if hit is not None:
-                return hit, None
         dg, st = dimer.cross_dimer(a, b, self.cfg)
         return dimer.report_dG(dg, self.cfg.get('dimer_threshold', -0.45)), st
 
     def hairpin_dG(self, seq):
-        if self.reference is not None:
-            hit = self.reference.hairpin(seq)
-            if hit is not None:
-                return hit, None
         dg, st = dimer.hairpin(seq, self.cfg)
         thr = self.cfg.get('hairpin_threshold', self.cfg.get('dimer_threshold', -0.45))
         return dimer.report_dG(dg, thr), st

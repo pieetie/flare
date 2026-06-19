@@ -11,7 +11,7 @@ def run(sense, antisense, probe):
     """
     print the values for the three oligos and their cross dimers
     """
-    eng = Engine(calibration_mode="beacon_exact")
+    eng = Engine(calibration_mode="calibrated")
     seqs = {"sense": sense, "antisense": antisense, "probe": probe}
     print(f"{'oligo':10}{'len':>4}{'Tm':>8}{'GC%':>7}{'clamp':>6}{'self':>7}{'hairpin':>9}")
     for name, s in seqs.items():
@@ -27,7 +27,7 @@ def run(sense, antisense, probe):
 def main(argv=None):
     argv = sys.argv[1:] if argv is None else argv
     if len(argv) != 3:
-        print("usage  python -m engine SENSE ANTISENSE PROBE")
+        print("usage  python -m flare SENSE ANTISENSE PROBE")
         return 1
     run(*argv)
     return 0

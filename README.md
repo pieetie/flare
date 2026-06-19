@@ -1,10 +1,10 @@
 # Flare
 
-Flare is an independent oligo thermodynamics engine for TaqMan assays, built on published nearest-neighbor science and benchmarked against Beacon Designer.
+Flare is an independent oligo thermodynamics engine for TaqMan assays, built on published nearest-neighbor science.
 
-Parameters come from published science. The `beacon_exact` fit uses outputs observed from Beacon Designer Free Edition only, with no access to PremierBiosoft source code.
+Parameters come from published science. The optional `calibrated` mode tunes a handful of parameters against observed reference values, with no access to any third-party source code or binaries. See `NOTICE.md`.
 
-![Flare error per metric against recorded reference values](figures/flare_vs_beacon.png)
+![Flare error per metric against recorded reference values](figures/flare_validation.png)
 
 ## Use
 

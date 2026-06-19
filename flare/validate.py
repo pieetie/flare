@@ -8,11 +8,11 @@ from .core import Engine, gc_percent, gc_clamp
 OBSERVABLES = ['tm', 'gc_pct', 'gc_clamp', 'self_dimer', 'cross_dimer', 'hairpin']
 
 
-def collect(calibration_mode='literature', reference_cache=False):
+def collect(calibration_mode='literature'):
     """
     gather expected and computed pairs for every observable
     """
-    eng = Engine(calibration_mode=calibration_mode, reference_cache=reference_cache)
+    eng = Engine(calibration_mode=calibration_mode)
     oligos = loader.load_oligos()
     rows = {k: [] for k in OBSERVABLES}
     for assay in loader.load_assays():
@@ -55,7 +55,7 @@ def stats(rows):
 
 
 def main():
-    for mode in ('literature', 'beacon_exact'):
+    for mode in ('literature', 'calibrated'):
         rows = collect(mode)
         print(mode)
         for obs in OBSERVABLES:
