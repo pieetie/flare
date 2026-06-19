@@ -4,6 +4,8 @@ Flare is an independent oligo thermodynamics engine for TaqMan assays, built on 
 
 Parameters come from published science. The `beacon_exact` fit uses outputs observed from Beacon Designer Free Edition only, with no access to PremierBiosoft source code.
 
+![Flare error per metric against recorded reference values](figures/flare_vs_beacon.png)
+
 ## Use
 
 Run Flare on an assay:
