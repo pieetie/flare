@@ -28,24 +28,23 @@ def run(sense, antisense, probe, show_structures=False):
     if show_structures:
         _print_structures(eng, seqs)
 
-def _print_structures(eng, seqs):
-    """ASCII rendering of every winning alignment."""
+def _print_structures(eng, seqs, top_n=4):
+    """
+    ASCII rendering of the ranked alignments (best first)
+    """
     print()
     print("structures")
     print("==========")
     for name, s in seqs.items():
         s = s.upper()
-        dg, st = eng.self_dimer_dG(s)
         print(f"\nself dimer  {name}")
-        print(render.render_self_dimer(s, dg, st))
-        dg, st = eng.hairpin_dG(s)
+        print(render.render_duplex_structures(s, s, eng.self_dimer_structures(s), top_n))
         print(f"\nhairpin  {name}")
-        print(render.render_hairpin_structure(s, dg, st))
+        print(render.render_hairpin_structures(s, eng.hairpin_structures(s), top_n))
     for x, y in (("sense", "antisense"), ("sense", "probe"), ("antisense", "probe")):
         a, b = seqs[x].upper(), seqs[y].upper()
-        dg, st = eng.cross_dimer_dG(a, b)
         print(f"\ncross dimer  {x} {y}")
-        print(render.render_cross_dimer(a, b, dg, st))
+        print(render.render_duplex_structures(a, b, eng.cross_dimer_structures(a, b), top_n))
 
 def main(argv=None):
     argv = sys.argv[1:] if argv is None else argv
