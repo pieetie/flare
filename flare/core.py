@@ -79,6 +79,33 @@ class Engine:
         thr = self.cfg.get('hairpin_threshold', self.cfg.get('dimer_threshold', -0.45))
         return dimer.report_dG(dg, thr), st
 
+    def _dimer_cutoff(self):
+        return self.cfg.get('dimer_threshold', -0.45)
+
+    def _hairpin_cutoff(self):
+        return self.cfg.get('hairpin_threshold', self._dimer_cutoff())
+
+    def self_dimer_structures(self, seq, top_n=None):
+        """
+        ranked self dimer alignments for visualization (does not affect dG)
+        """
+        sts = dimer.enumerate_self_dimer(seq, self.cfg, cutoff=self._dimer_cutoff())
+        return sts if top_n is None else sts[:top_n]
+
+    def cross_dimer_structures(self, a, b, top_n=None):
+        """
+        ranked cross dimer alignments for visualization (does not affect dG)
+        """
+        sts = dimer.enumerate_cross_dimer(a, b, self.cfg, cutoff=self._dimer_cutoff())
+        return sts if top_n is None else sts[:top_n]
+
+    def hairpin_structures(self, seq, top_n=None):
+        """
+        ranked hairpin folds for visualization (does not affect dG)
+        """
+        sts = dimer.enumerate_hairpins(seq, self.cfg, cutoff=self._hairpin_cutoff())
+        return sts if top_n is None else sts[:top_n]
+
     def analyze_oligo(self, seq, conditions):
         """
         full set of values for one oligo

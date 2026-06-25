@@ -123,6 +123,97 @@ def hairpin(seq, config, min_loop=3, temp_K=T37):
     return best
 
 
+def enumerate_duplex(a, b, config, temp_K=T37, cutoff=0.0):
+    """
+    every offset's most stable contiguous run, ranked best first
+    """
+    dG_nn = get_dG37(config, temp_K)
+    init = config.get('dimer_init_dG', 1.96)
+    at_pen = config.get('dimer_terminal_at_penalty', 0.0)
+    min_run = config.get('dimer_min_run', 2)
+    a = a.upper()
+    br = b.upper()[::-1]
+    na, nb = len(a), len(br)
+    out = []
+
+    for d in range(-(nb - 1), na):
+        best = None
+
+        def consider(run, col_start, best):
+            if len(run) < min_run:
+                return best
+            dg = _run_dG(''.join(run), dG_nn, init, at_pen)
+            if dg is not None and (best is None or dg < best[0]):
+                return (dg, dict(offset=d, top=''.join(run),
+                                 start=col_start, length=len(run)))
+            return best
+
+        run = []
+        col_start = None
+        for j in range(nb):
+            i = j + d
+            if 0 <= i < na and is_wc(a[i], br[j]):
+                if not run:
+                    col_start = i
+                run.append(a[i])
+            else:
+                best = consider(run, col_start, best)
+                run = []
+        best = consider(run, col_start, best)
+        if best is not None and best[0] <= cutoff:
+            dg, info = best
+            out.append(dict(dg=dg, **info))
+
+    out.sort(key=lambda s: s['dg'])
+    return out
+
+
+def enumerate_self_dimer(seq, config, **kw):
+    return enumerate_duplex(seq, seq, config, **kw)
+
+
+def enumerate_cross_dimer(a, b, config, **kw):
+    return enumerate_duplex(a, b, config, **kw)
+
+
+def enumerate_hairpins(seq, config, min_loop=3, temp_K=T37, cutoff=0.0):
+    """
+    every distinct fold's stem energy, ranked best first
+    """
+    dG_nn = get_dG37(config, temp_K)
+    nucleation = config.get('hairpin_nucleation_dG', 1.8)
+    at_pen = config.get('hairpin_terminal_at_penalty', 0.0)
+    min_stem = config.get('hairpin_min_stem', 2)
+    seq = seq.upper()
+    n = len(seq)
+    folds = {}
+    for p in range(1, n):
+        for q in range(p + min_loop - 1, n - 1):
+            a, b = p - 1, q + 1
+            stem5 = []
+            while a >= 0 and b < n and is_wc(seq[a], seq[b]):
+                stem5.append(seq[a])
+                a -= 1
+                b += 1
+            L = len(stem5)
+            if L < min_stem:
+                continue
+            top = ''.join(reversed(stem5))
+            dg = nucleation
+            for k in range(L - 1):
+                dg += dG_nn[top[k:k + 2]]
+            if at_pen:
+                dg += at_pen * ((top[0] in 'AT') + (top[-1] in 'AT'))
+            if dg > cutoff:
+                continue
+            key = (a + 1, b - 1)
+            cand = dict(dg=dg, i=a + 1, j=b - 1, L=L, loop=q - p + 1, stem=top)
+            if key not in folds or dg < folds[key]['dg']:
+                folds[key] = cand
+    out = sorted(folds.values(), key=lambda s: s['dg'])
+    return out
+
+
 def report_dG(dg, threshold=-0.1, ndp=1):
     """
     round to one decimal and report 0.0 when weaker than the threshold
